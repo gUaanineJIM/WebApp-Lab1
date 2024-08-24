@@ -14,14 +14,24 @@
     font-family: 'Poppins', sans-serif; 
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: var(--background); 
-    color: var(--accent); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    flex: 1; /* This makes the main content take up all available space */
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--white);
-   
 }
 
 a {
@@ -53,12 +63,6 @@ li {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
 }
 
-header {
-    background: var(--highlight);
-    width: 100vh;
-    height: 100vh;
-}
-
 .header__main {
     display: flex;
     justify-content: space-evenly;
@@ -81,7 +85,6 @@ header {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     z-index: 1000; 
 }
-
 
 .header__nav > li {
     font-size: 20px;
@@ -112,6 +115,7 @@ header {
 .header__nav > li:hover::after {
     width: 100%;
 }
+
 .header__content {
     height: 80%;
     width: 60%;
@@ -168,4 +172,35 @@ header {
     background: var(--white);
     color: var(--highlight);
     border: 2px solid var(--highlight);
+}
+
+.contact__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-top: 3px solid var(--secondary);
+    color: var(--white);
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact__footer p {
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.contact__footer a {
+    color: var(--highlight);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.contact__footer a:hover {
+    text-decoration: underline;
+    color: var(--white);
 }

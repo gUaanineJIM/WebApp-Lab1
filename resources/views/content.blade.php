@@ -46,7 +46,7 @@
                 <img src="{{ asset('/img/flora.png') }}" alt="Project 1">
                 <div class="project-info">
                     <h3>FloraLingo</h3>
-                    <p>HCI group Project - HTML CSS JS, prototype using paper and Figma</p>
+                    <p>HCI group Project - HTML CSS JS, prototype using paper and Figma.</p>
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
                 <img src="{{ asset('/img/javainventory.png') }}" alt="Project 2">
                 <div class="project-info">
                     <h3>Java Beans Cafe Inventory</h3>
-                    <p>Group Project in compliance for Object Oriented Programming - JAVA 'Lead Developer'</p>
+                    <p>Group Project in compliance for Object Oriented Programming - JAVA 'Lead Developer'.</p>
                 </div>
             </div>
             
@@ -62,7 +62,7 @@
                 <img src="{{ asset('/img/hirayaDK.png') }}" alt="Project 3">
                 <div class="project-info">
                     <h3>Hiraya De Kasuotan</h3>
-                    <p>Group Project in  Compliance for Platform Technologies - HTML CSS JS</p>
+                    <p>Group Project in  Compliance for Platform Technologies - HTML CSS JS.</p>
                 </div>
             </div>
            
@@ -70,7 +70,7 @@
                 <img src="{{ asset('/img/dsa.png') }}" alt="Project 4">
                 <div class="project-info">
                     <h3>Compiled Activities on DSA</h3>
-                    <p>Individual Project Using C Language</p>
+                    <p>Individual Project Using C Language.</p>
                 </div>
             </div>
 
@@ -78,7 +78,7 @@
                 <img src="{{ asset('/img/resume.png') }}" alt="Project 5">
                 <div class="project-info">
                     <h3>Personal Resume</h3>
-                    <p>Platform Technologies Individual Activity - HTML CSS JS  </p>
+                    <p>Platform Technologies Individual Activity - HTML CSS JS.  </p>
                 </div>
             </div>
             
@@ -86,7 +86,7 @@
                 <img src="{{ asset('/img/calcu.png') }}" alt="Project 6">
                 <div class="project-info">
                     <h3>Calculator with Special Features</h3>
-                    <p>Object Oriented Programming Individual Activitys</p>
+                    <p>Object Oriented Programming Individual Activitys.</p>
                 </div>
             </div>
             
@@ -94,7 +94,7 @@
                 <img src="{{ asset('/img/db.png') }}" alt="Project 7">
                 <div class="project-info">
                     <h3>Database for Dental Appointment System</h3>
-                    <p>A Group Project for Web System Technologies and Information Management 1 - Backend Developer using SQL</p>
+                    <p>A Group Project for Web System Technologies and Information Management 1 - Backend Developer using SQL.</p>
                 </div>
             </div>
 
@@ -102,7 +102,7 @@
                 <img src="{{ asset('/img/dental.png') }}" alt="Project 8">
                 <div class="project-info">
                     <h3>Dental Appointment System</h3>
-                    <p>A group project in compliance for Web System Technologies - Backend Developer using SQL and PHP  </p>
+                    <p>A group project in compliance for Web System Technologies - Backend Developer using SQL and PHP.  </p>
                 </div>
             </div>
             
@@ -110,7 +110,7 @@
                 <img src="{{ asset('/img/cats.png') }}" alt="Project 9">
                 <div class="project-info">
                     <h3>Website Homepage</h3>
-                    <p>Individual Activity for Platform Technologies - Developer</p>
+                    <p>Individual Activity for Platform Technologies - Developer.</p>
                 </div>
             </div>
 
@@ -118,7 +118,23 @@
                 <img src="{{ asset('/img/pup.png') }}" alt="Project 10">
                 <div class="project-info">
                     <h3>A Sample Website/Blog for Pups </h3>
-                    <p>Individual Activity for Platform Technologies - Developer</p>
+                    <p>Individual Activity for Platform Technologies - Developer.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="{{ asset('/img/enviro.png') }}" alt="Project 11">
+                <div class="project-info">
+                    <h3>EnviroMate - Figma Application Design</h3>
+                    <p>An Application Prototype for project presentation requirement for Special Topics in IT.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="{{ asset('/img/fur.png') }}" alt="Project 10">
+                <div class="project-info">
+                    <h3>Vet Care- Chat Bot</h3>
+                    <p>Prototype project to enhance my UI/UX skills during summer.</p>
                 </div>
             </div>
            
