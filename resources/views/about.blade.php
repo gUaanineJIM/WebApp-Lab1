@@ -14,14 +14,13 @@
             <nav>
                 <ul class="header__nav">
                     <li><a href="homepage">Home</a></li>
-                    <li><a href="about">About</a></li>
+                    <li class="active"><a  href="about">About</a></li>
                     <li><a href="content">Projects</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
-    <main>
         <section class="section-content">
             <h2>Activity for Web Development - Laboratory 1</h2><br><br>
             <p>
@@ -46,7 +45,6 @@
                 and experience as an IT student.
             </p><br>
         </section>
-    </main>
 
 
     <main class="header__content">

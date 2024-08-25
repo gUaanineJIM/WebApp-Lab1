@@ -27,8 +27,7 @@ body {
 }
 
 main {
-    flex: 1; /* This makes the main content take up all available space */
-}
+    flex: 1;}
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--white);
@@ -56,11 +55,11 @@ li {
 }
 
 .img img {
-    border-radius: 50%; /* Full circle for a round profile image */
+    border-radius: 50%; 
     width: 250px;
     height: 250px;
     object-fit: cover;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .header__main {
@@ -90,15 +89,15 @@ li {
     font-size: 20px;
     cursor: pointer;
     position: relative;
-    padding: 10px 20px; /* Book tab spacing */
+    padding: 10px 20px; 
     transition: background 0.3s ease, color 0.3s ease;
     border-radius: 5px;
-    color: #ffffff; /* White color for nav items */
+    color: #ffffff; 
 }
 
 .header__nav > li:hover {
-    background: #C9DABF; /* Light gray color for the hover effect */
-    color: #e57373; /* Soft red color for text when hovered */
+    background: #C9DABF; 
+    color: #e57373; 
 }
 
 .header__nav > li::after {
@@ -108,10 +107,16 @@ li {
     bottom: 0;
     width: 0;
     height: 3px;
-    background-color: #e57373; /* Matching soft red color for the underline */
+    background-color: #e57373;
     transition: width 0.3s ease-in-out;
 }
 
+.header__nav > li.active {
+    background: #C9DABF; 
+    color: #e57373; 
+}
+
+.header__nav > li.active::after, 
 .header__nav > li:hover::after {
     width: 100%;
 }
@@ -131,7 +136,7 @@ li {
 }
 
 .header__text h1 {
-    font-size: 72px; /* Slightly smaller for a balanced look */
+    font-size: 72px; 
     font-weight: bold;
     color: var(--highlight);
 }
@@ -151,7 +156,7 @@ li {
     line-height: 28px;
     margin: auto;
     color: var(--accent);
-    margin-bottom: 20px; /* Adds space below paragraphs */
+    margin-bottom: 20px; 
 }
 
 .header__text > button {
@@ -165,7 +170,7 @@ li {
     background: var(--highlight);
     color: var(--white);
     transition: background 0.3s ease, color 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .header__text > button:hover {
@@ -189,32 +194,34 @@ footer {
 }
 
 .section-content {
-    background-color: var(--background); /* Set the background color */
-    padding: 2rem; /* Add padding around the content */
-    border-radius: 8px; /* Optional: Add rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
-    max-width: 800px; /* Optional: Limit the width */
-    margin: 2rem auto; /* Center the section horizontally */
-    text-align: center; /* Center the text inside the section */
+    background-color: var(--background); 
+    padding: 2rem;
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    max-width: 800px;
+    margin: 2rem auto; 
+    text-align: center;
     font-size: 17px;
 }
 
 .contact__footer {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
-    padding: 15px;
-    background-color: whitesmoke;
+    padding: 20px;
+    background: linear-gradient(135deg, var(--secondary) 0%, var(--background) 100%); /* Subtle gradient background */
     border-top: 3px solid var(--secondary);
     color: var(--white);
     font-size: 14px;
     position: relative;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact__footer p {
-    margin: 0 15px;
+    margin: 5px 15px; 
     font-size: 14px;
 }
 
@@ -223,9 +230,16 @@ footer {
     text-decoration: none;
     font-weight: 600;
     margin-left: 5px;
+    display: inline-flex;
+    align-items: center; 
 }
 
 .contact__footer a:hover {
     text-decoration: underline;
     color: var(--white);
+}
+
+.contact__footer i {
+    margin-right: 5px; 
+    font-size: 1.1em; 
 }
